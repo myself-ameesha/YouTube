@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="left-header">
+               <img class="menu" src="menu.svg">
+               <img class="logo" src="logo.svg">
+            </div>
+            <div class="center-header">
+                <form>
+                <input type="text" placeholder="search" fdprocessedid="naf2ip">
+                <button  fdprocessedid="48v70e">
+                <img src="search.svg" alt="">
+                </button>
+            </form>
+                <img class="microphone" src="microphone.png">
+            </div>
+            <div class="right-header">
+                <img class="clr" src="createicon.svg">
+                <img class="clr" src="notificationicon.svg">
+                <img class="avatar" src="avatar.jpg">
+            </div>
+        </div>
+    </header>
+    <div class="all-content">
+    <div class="sidebar-container">
+        <div class="sidebar">
+           <aside>
+            <div class="side-icons">
+                <img src="home.svg">
+                <p>Home</p>
+            </div>
+            <div class="side-icons">
+                <img src="shorts.svg">
+                <p>Shorts</p>
+            </div>
+            <div class="side-icons">
+                <img src="subscribtion.svg">
+                <p class="para">Subscribtion</p>
+            </div>
+            <div class="side-icons">
+                <img src="you.svg">
+                <p>You</p>
+            </div>
+           </aside>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="tags">
+            <div>
+            <button class="rounded-3 text-white bg-dark" id="all" onclick="changestyle()">All</button>
+            </div>
+           <div>
+            <button class="rounded-3" id="btnn" onclick="changecolor()">Thoughts</button>
+            </div>
+            <div>
+            <button class="rounded-3" id="clrbtn" onclick="clearStyle()">Web Designing</button>
+            </div>
+            <div>
+                <button class="rounded-3" id="clrbtnn" onclick="clearstyle()">C++</button>
+                </div>
+            <div class="tag lights">Romance</div>
+            <div class="tag lights">Python</div>
+            <div class="tag lights">Music</div>
+            <div class="tag lights">Java</div>
+            <div class="tag lights">Comedy</div>
+            <div class="tag lights">C#</div>
+            <div class="tag lights">Mixes</div>
+            <div class="tag lights">Live</div>
+            <div class="tag lights">News</div>
+            <div class="tag lights">Python</div>
+            <div class="tag lights">Vocabulary</div>
+        </div>
+        <!-- VIDEO ROWS-ROW1 -->
+        <div class="container-fuild">
+            <div class="row videos  overflow-hidden">
+            <div class="video col-lg-3 col-sm-6 col-xs-6">
+                <img src="tedtalk.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="tedchannel.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Befriend Yourself | Nivetha Thomas | TEDxOMCH</h3>
+                        <p class="channel-name">TEDx TALKS</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div  class="video-status">
+                        <p>6.7M views</p>
+                        <p>4 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="pearly.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="pearlyavatar.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Understanding Mind and it's Hidden Powers-Ep2 | Gulu Gulu Talks | Pearly Maaney</h3>
+                        <p class="channel-name">TEDx TALKS</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status1 dis">
+                        <p>411k views</p>
+                        <p>2 months ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6 ">
+                <img src="muniba.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="englishspeech.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>English Speech | Muniba Mazari - We all are Perfectly Imperfect</h3>
+                        <p class="channel-name">English Speeches</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>27M views</p>
+                        <p>5 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="priyankachopra.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="inspiration.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>12 RULES OF BECOMING THE BEST VERSION OF YOURSELF -PRIYANKA CHOPRA</h3>
+                        <p class="channel-name">Inspiration Archive</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status1 dis1">
+                        <p>784k views</p>
+                        <p>2 years ago</p>
+                    </div>    
+        </div>
+        </div>
+
+        <!-- ROW2 -->
+
+        <div class="row videos overflow-hidden">
+            <div class="video col-lg-3 col-sm-6">
+                <img src="time.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="jay.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Before You Waste Time,Watch This | Jay Shetty</h3>
+                        <p class="channel-name">Jay Shetty</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>3.1M views</p>
+                        <p>2 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="mind.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="m.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>The Most Eye Opening 10 Minutes Of Your Life | David Goggins</h3>
+                        <p class="channel-name">Motivation Madness</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>16M views</p>
+                        <p>4 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="muthalnee.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="sonyy.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Muthal Nee Mudivum Nee - Title Track Video | Sid Sriram</h3>
+                        <p class="channel-name">SonyMusicSouthVEVO</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>123M views</p>
+                        <p>2 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="sidkia.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="sony.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Ranjha-Official Video | Shershaah | Sidharth-kiara</h3>
+                        <p class="channel-name">Sony Music India</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status">
+                        <p>341M views</p>
+                        <p>2 years ago</p>
+                    </div>    
+            </div>
+        </div>
+
+<!-- ROW 3 -->
+
+        <div class="row videos overflow-hidden ">
+            <div class="video col-lg-3 col-sm-6">
+                <img src="friends.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="frndlogo.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Funny Moments From Season 1 | Friends</h3>
+                        <p class="channel-name">Friends</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status">
+                        <p>771k views</p>
+                        <p>3 months ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="kuttistory.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="kuttylogo.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Perfect Date | Malayalam Short Film | Kutti Stories</h3>
+                        <p class="channel-name">Kutti Stories</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status">
+                        <p>1.1M views</p>
+                        <p>10 months ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="kushi.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="tamil.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Aradhya - Video Song | Kushi | Sid Sriram</h3>
+                        <p class="channel-name">Saregama Tamil</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status">
+                        <p>6.3M views</p>
+                        <p>2 months ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="love.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="budhism.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>How To Love Without Attachment | Buddhism In English</h3>
+                        <p class="channel-name">Buddhism</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>475k views</p>
+                        <p>2 months ago</p>
+                    </div>    
+            </div>
+        </div>
+        <!-- ROW 4 -->
+        <div class="row videos overflow-hidden">
+            <div class="video col-lg-3 col-sm-6">
+                <img src="motivation.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="mentor.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Priyanka Chopra’s Speech Will Leave You SPEECHLESS — Best Life Advice</h3>
+                        <p class="channel-name">Motivation Mentors</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis2">
+                        <p>1.5M views</p>
+                        <p>1 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="git.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="broto.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Part 1 | Introduction to GIT | Date with Git | Git Malayalam Tutorial</h3>
+                        <p class="channel-name">Brototype Malayalam</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>212k views</p>
+                        <p>3 years ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="heriye.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="dark.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Heeriye | Jasleen Royal | Arijit Singh| Dulquer Salmaan| Aditya Sharma</h3>
+                        <p class="channel-name">Dark Melodious</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status dis">
+                        <p>2M views</p>
+                        <p>2 weeks ago</p>
+                    </div>    
+            </div>
+            <div class="video col-lg-3 col-sm-6">
+                <img src="steve.webp">
+                <div class="video-details">
+                    <div class="profile">
+                        <img class="thumbnail-img" src="hub.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Steve Harvey Leaves the Audience SPEECHLESS | One of the Best Motivational Speeches</h3>
+                        <p class="channel-name">MotivationHub</p>
+                    </div>
+                    <div class="dots">
+                        <img src="dots.svg">
+                    </div>
+                </div>
+                    <div class="video-status1 dis1">
+                        <p>7.4M views</p>
+                        <p>2 years ago</p>
+                    </div>    
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        function changecolor() {
+        let Id=document.getElementById("btnn")
+        Id.style.backgroundColor = "black";
+        Id.style.color = "whitesmoke";
+        btn = document.getElementById("clrbtn");
+        btn.style.backgroundColor = "";
+        btn.style.color = "";
+        let clrbtnn=document.getElementById("clrbtnn");
+        clrbtnn.style.backgroundColor = "";
+        clrbtnn.style.color = "";
+        }
+       function clearStyle(){
+        let btn = document.getElementById("btnn");
+        btn.style.backgroundColor = "";
+        btn.style.color = "";
+        let Id=document.getElementById("clrbtn") 
+        Id.style.backgroundColor = "black";
+        Id.style.color = "whitesmoke";
+        let clrbtnn=document.getElementById("clrbtnn");
+        clrbtnn.style.backgroundColor = "";
+        clrbtnn.style.color = "";
+
+       }
+       function clearstyle(){
+        let clrbtnn=document.getElementById("clrbtnn");
+        clrbtnn.style.backgroundColor = "black";
+        clrbtnn.style.color = "whitesmoke";
+        let btn = document.getElementById("btnn");
+        btn.style.backgroundColor = "";
+        btn.style.color = "";
+        btn = document.getElementById("clrbtn");
+        btn.style.backgroundColor = "";
+        btn.style.color = "";
+       
+       }
+        </script>
+
+
+
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
